@@ -1,7 +1,8 @@
 const express= require('express')
 const path =require('path')
 const app = express()
-const port = process.evu.PORT || 3000
+
+const port = process.enu.PORT || 3000
 const hbs =require('hbs')
 const geo=require('./utils/geocode')
 const forcast=require('./utils/forcast')
