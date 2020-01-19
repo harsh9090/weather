@@ -107,5 +107,5 @@ app.get('*',(req,res)=>{
 })
 
 app.listen(port,()=>{
-    console.log('server is up on 300')
+    console.log('server is up on '+port)
 })
